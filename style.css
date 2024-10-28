@@ -1,0 +1,120 @@
+html {
+    border-left: 5px solid lightgray;
+  }
+
+body {
+    max-width: 1000px; /* Limits the width of the body to 1000px */
+    margin: 0 auto; /* Centers the body horizontally */
+    min-height: 100vh; /* Ensures it covers at least the viewport height */
+    font-family: sans-serif; /* Uses a sans-serif font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  
+header, main, footer {
+    padding: 1rem 2rem; /* Adds 1rem padding on top and bottom, 2rem on left and right */
+  }
+
+  h1 {
+    color: tomato;
+  }
+  
+
+  img {
+    width: 100%;
+  }
+  
+
+
+  /* Base styling for all navigation lists */
+.nav-list {
+    padding: 0;                /* Removes all padding */
+    list-style-type: none;     /* Removes bullet points */
+    display: flex;             /* Applies Flexbox to arrange items horizontally */
+  }
+  
+  .main-nav ul {
+    list-style-type: none;   /* Removes bullet points */
+    padding: 0;              /* Removes default padding */
+    margin: 0;               /* Removes default margin */
+    display: flex;           /* Arranges items horizontally */
+  }
+  
+  .main-nav li {
+    margin-right: 1rem;      /* Adds space between items */
+  }
+  
+  .main-nav a {
+    text-decoration: none;   /* Removes underline from links */
+    color: black;            /* Sets link color */
+    padding: 0.5rem 1rem;    /* Adds padding for clickable area */
+  }
+  
+  .main-nav a:hover {
+    color: gray;             /* Optional: changes color on hover */
+  }
+  
+  /* Main navigation styling */
+  .main-nav .nav-list {
+    justify-content: space-between; /* Distributes items evenly across the container */
+  }
+  
+  .main-nav .nav-list a {
+    color: lightgray;          /* Sets link color to light gray */
+    text-decoration: none;     /* Removes underline */
+    padding: 10px;             /* Adds padding around links */
+  }
+  
+  /* Footer navigation styling */
+  .footer-nav .nav-list {
+    justify-content: center;   /* Centers items in the footer */
+  }
+  
+  .footer-nav .nav-list a {
+    color: tomato;             /* Sets link color to tomato */
+    text-decoration: none;     /* Removes underline */
+    padding: 10px;             /* Adds padding around links */
+  }
+
+  
+
+  .continue-link {
+    display: block;       /* Allows for full-width alignment */
+    text-align: right;    /* Aligns the link to the right */
+    font-weight: bold;    /* Makes the link bold */
+    color: tomato;        /* Sets the color to tomato */
+    text-decoration: none; /* Removes underline */
+    margin-top: 1rem;     /* Adds space above the link */
+  }
+  
+  .continue-link:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+  }
+  
+
+  article {
+    margin-bottom: 4rem;         /* Adds space below each article */
+    border-bottom: 1px solid lightgray; /* Adds a light gray border to the bottom */
+    padding-bottom: 2rem;        /* Adds padding at the bottom */
+  }
+  article p::first-letter {
+    font-size: 2.5rem;   /* Makes the first letter larger */
+    font-weight: bold;   /* Makes the first letter bold */
+    color: lightgray;    /* Sets the color of the first letter to light gray */
+    float: left;         /* Aligns the letter to the left for a drop cap effect */
+    margin-right: 0.1rem; /* Adds space between the letter and the text */
+    line-height: 1;      /* Adjusts line height to fit better with the text */
+  }
+    
+
+  footer p {
+    color: lightgray;
+  }
+  
+  .post-date {
+    font-size: 0.9rem;       /* Makes the date slightly smaller */
+    color: gray;             /* Sets a lighter color for the date */
+    margin-bottom: 0.5rem;   /* Adds space below the date */
+  }
+  
+  
